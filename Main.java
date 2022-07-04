@@ -1,8 +1,8 @@
 import java.util.*;
 class Main {
 	public static void main(String[] args) {
-		power sd = new power();
-		var res = sd.solve(5,1);
+		gcd sd = new gcd();
+		var res = sd.solve(8,4);
 		System.out.println(res);
 	}
 }
