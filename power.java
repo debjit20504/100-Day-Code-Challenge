@@ -3,6 +3,7 @@ public class power {
 		if(exp < 0) {
 			return -1;
 		}
+		}
 		if(base == 0 || exp == 1) {
 			return base;
 		}
