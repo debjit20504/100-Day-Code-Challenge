@@ -1,8 +1,8 @@
 import java.util.*;
 class Main {
 	public static void main(String[] args) {
-		bin_to_dec sd = new bin_to_dec();
-		var res = sd.solve(10);
+		fibonaci sd = new fibonaci();
+		var res = sd.solve(4);
 		System.out.println(res);
 	}
 }
