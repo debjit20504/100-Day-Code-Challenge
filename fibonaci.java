@@ -3,6 +3,6 @@ public class fibonaci {
 		if(n==2) {
 			return 1;
 		}
-		return n+solve(n-1);
+		return n+solve(n-1); 
 	}
 }
