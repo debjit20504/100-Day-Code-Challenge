@@ -1,11 +1,15 @@
 public class mic1 {
-	public int solve(int arr[], int s) {
-		for(int i=0;i<arr.length;i++) {
-			for(int j=0;j<i;j++) {
-				System.out.print(arr[j]);
+	public int solve(int x, int y) {
+		while(true) {
+			if(x>y) {
+				x = x-y;
 			}
-			System.out.println();
+			if(x<y) {
+				y = y-x;
+			}
+			if(x==y) {
+				return x;
+			}
 		}
-		return 0;
 	}
 }
