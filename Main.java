@@ -1,10 +1,10 @@
 import java.util.*;
-class Main {
+public class Main {
 	public static void main(String[] args) {
-		mic1 sd = new mic1();
-		int a = 2437;
+		sum_of_digits sd = new sum_of_digits();
+		int a = 16;
 		int b = 875;
-		var res = sd.solve(a,b);
+		var res = sd.solve(a);
 		System.out.println(res);
 	}
 }
