@@ -5,8 +5,12 @@ public class leetcode_560 {
 	}
 
 	public static int subarraySum(int[] num) {
-		for (int ; ; ) {
-			
+		for(int i=0;i<num.length;i++) {
+			for(int j=i; j<num.length;j++) {
+				System.out.println(num[i]+", "+num[j]);
+			}
+			System.out.println();
 		}
+		return 0;
 	}
 }
